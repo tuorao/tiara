@@ -1,0 +1,296 @@
+<kr.co.makeit.tiara.SoftKeyboardHandledLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_all_background" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/parentView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:isScrollContainer="false"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/titleFrameLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp" >
+
+            <ImageView
+                android:id="@+id/titleImageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                android:src="@drawable/tiara_title3" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleFrameLayout"
+            android:layout_centerInParent="false"
+            android:orientation="vertical"
+            android:paddingTop="30dp" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/join_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="아이디"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/joinIdText"
+                    style="@style/JoinStyle"
+                    android:background="#22EEEEEE"
+                    android:ems="10"
+                    android:onClick="onIdClick"
+                    android:singleLine="true"
+                    android:textSize="15.0sp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="30dp"
+                android:onClick="onCheckClick"
+                android:text="중복확인" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="비밀번호"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/joinPwText"
+                    style="@style/JoinStyle"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:onClick="onPwClick"
+                    android:singleLine="true"
+                    android:textColorHint="@android:color/white"
+                    android:textSize="15.0sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="비밀번호 확인"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/joinPw2Text"
+                    style="@style/JoinStyle"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:onClick="onPw2Click"
+                    android:singleLine="true"
+                    android:textColorHint="@android:color/white"
+                    android:textSize="15.0sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/TextView03"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="이름"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/joinNameText"
+                    style="@style/JoinStyle"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:onClick="onNameClick"
+                    android:singleLine="true"
+                    android:textColorHint="@android:color/white"
+                    android:textSize="15.0sp" >
+
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextView04"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:hint="ex) 01012345678"
+                    android:inputType="phone"
+                    android:paddingLeft="15dp"
+                    android:text="핸드폰 번호"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/joinPhoneText"
+                    style="@style/JoinStyle"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="ex) 01012345678"
+                    android:inputType="phone"
+                    android:singleLine="true"
+                    android:textColorHint="@android:color/white"
+                    android:textSize="15.0sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/joinBirthText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="생일"
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="1" >
+
+                    <EditText
+                        android:id="@+id/joinBirthMonText"
+                        style="@style/JoinStyle"
+                        android:layout_marginBottom="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:textColorHint="@android:color/white"
+                        android:textSize="15.0sp" />
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="30dp"
+                        android:gravity="center_vertical"
+                        android:text="월"
+                        android:textColor="@android:color/white" />
+
+                    <EditText
+                        android:id="@+id/joinBirthDayText"
+                        style="@style/JoinStyle"
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="일"
+                        android:textColor="@android:color/white" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="120dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/joinCancelButton"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/join_cancel"
+                android:onClick="onCancelClick" />
+
+            <Button
+                android:id="@+id/JoinGoButton"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/join_submit"
+                android:onClick="onJoinClick" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</kr.co.makeit.tiara.SoftKeyboardHandledLinearLayout> 

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tiara Nail</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="language_now">tiếng Việt</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="push">báo tin</string>
+	
+    <string name="greeting">Chào mừng bạn</string>
+	<string name="balance">Tiền còn lại</string>
+	<string name="charge">Tiền tích lũy</string>
+	<string name="tiara_news">Tiara Tin tức</string>
+	<string name="nail_info">Nail info</string>
+	<string name="preview">Xem trước</string>
+	<string name="setting">Thiết lập</string>
+	<string name="id">Tài khoản</string>
+	<string name="pwd">Mật khẩu</string>
+	<string name="login">đăng nhập</string>
+	<string name="auto_login">Tự động đăng nhập</string>
+	<string name="find_id">Tìm tên đăng nhập/Mật khẩu</string>
+	<string name="is_first">Bạn chưa có tài khoản?</string>
+	<string name="join_us">Đăng ký</string>
+	<string name="notice">Thông báo</string>
+	<string name="surgery_info">Thông tin dịch vụ</string>
+	<string name="event">Sự kiện</string>
+	<string name="gallery">Bộ sưu tập/ Thư viện ảnh</string>
+	<string name="self_nail">self- nail</string>
+	<string name="like">star is like button</string>
+	<string name="nail_art">Nail  art</string>
+	<string name="go_back">Trở lại</string>
+	<string name="account_setting">Thiết lập tài khoản</string>
+	<string name="function_setting">Thiết lập chức năng</string>
+	<string name="name">Tên</string>
+	<string name="phone_number">Mobile</string>
+	<string name="birthday">Ngày sinh</string>
+	<string name="month">Hằng tháng</string>
+	<string name="day">Ngày</string>
+	<string name="modify">Sửa</string>
+	<string name="service_list">service</string>
+	<string name="pay">pay</string>
+	<string name="discount">D.C</string>
+	    
+</resources>

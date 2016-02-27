@@ -1,0 +1,174 @@
+<kr.co.makeit.tiara.SoftKeyboardHandledLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_all_background" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/parentView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:isScrollContainer="false"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/titleFrameLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp" >
+
+            <ImageView
+                android:id="@+id/titleImageView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                android:src="@drawable/tiara_title" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:paddingTop="30dp" >
+
+            <EditText
+                android:id="@+id/loginId"
+                style="@style/LoginStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:ems="10"
+                android:hint="@string/id"
+                android:onClick="onIdClick"
+                android:paddingLeft="30dp"
+                android:singleLine="true"
+                android:tag="id"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white"
+                android:textSize="15.0sp" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/more_bg" />
+
+            <EditText
+                android:id="@+id/loginPw"
+                style="@style/LoginStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:ems="10"
+                android:hint="@string/pwd"
+                android:inputType="textPassword"
+                android:onClick="onPwClick"
+                android:paddingLeft="30dp"
+                android:singleLine="true"
+                android:tag="pwd"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white"
+                android:textSize="15.0sp" >
+
+            </EditText>
+
+            <View
+                android:id="@+id/View01"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/more_bg" />
+
+            <Button
+                android:id="@+id/mainNoticeBtn"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="7.0dip"
+                android:background="@drawable/login_in_button"
+                android:minHeight="45.0dip"
+                android:onClick="onLoginClick"
+                android:textColor="@android:color/white"
+                android:textSize="20.0sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/autoCheckBox"
+                    style="@style/whiteCheckBoxStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:paddingLeft="@dimen/padding_checkbox"
+                    android:tag="auto_login"
+                    android:text="@string/auto_login"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="20dp"
+                    android:clickable="true"
+                    android:gravity="center_vertical|right"
+                    android:onClick="onFindClick"
+                    android:tag="find_id"
+                    android:text="@string/find_id"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="120.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:tag="is_first"
+                android:text="@string/is_first"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/mainNailnfoBtn"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/login_join_btn"
+                android:onClick="onJoinClick" />
+
+        </LinearLayout>
+
+        <com.capricorn.RayMenu
+            android:id="@+id/ray_menu"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="100dp" />
+
+    </RelativeLayout>
+</kr.co.makeit.tiara.SoftKeyboardHandledLinearLayout> 

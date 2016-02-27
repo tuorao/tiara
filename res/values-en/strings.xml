@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tiara Nail</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="language">Language</string>
+	<string name="language_now">English</string>
+	<string name="push">Push</string>
+	
+	<string name="greeting">,Welcome</string>
+	<string name="balance">Balance</string>
+	<string name="charge">Saved Money</string>
+	<string name="tiara_news">Tiara Info</string>
+	<string name="nail_info">Nail Info</string>
+	<string name="preview">Preview</string>
+	<string name="setting">Setting</string>
+	<string name="id">ID</string>
+	<string name="pwd">Password</string>
+	<string name="login">Login</string>
+	<string name="auto_login">Remember Me</string>
+	<string name="find_id">Forgot your ID/Password?</string>
+	<string name="is_first">Wants to use this application</string>
+	<string name="join_us">Create an account</string>
+	<string name="notice">Notice</string>
+	<string name="surgery_info">Shop Info</string>
+	<string name="event">Event</string>
+	<string name="gallery">Gallery</string>
+	<string name="self_nail">Self Nail </string>
+	<string name="like">If you like, press the star button :)</string>
+	<string name="nail_art">Nail Art</string>
+	<string name="go_back">Back</string>
+	<string name="account_setting">Account Setting</string>
+	<string name="function_setting">Function Setting</string>
+	<string name="name">Name</string>
+	<string name="phone_number">Phone</string>
+	<string name="birthday">Birthday</string>
+	<string name="month">Month</string>
+	<string name="day">Day</string>
+	<string name="modify">Modify</string>
+	<string name="service_list">service</string>
+	<string name="pay">pay</string>
+	<string name="discount">D.C</string>
+	
+</resources>

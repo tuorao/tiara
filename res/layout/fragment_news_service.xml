@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="찾아오시는길"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="경기도 시흥시 정왕동\n1737-9번지 로얄B/D 103호"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="예약문의"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="TEL : 031 - 433 - 4450\n H.P : 010 - 9792 - 2880"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="E-mail"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="nahee0402@hanmail.net"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="OPEN - AM 10:00\nCLOSE - PM 09:00"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:typeface="serif" />
+
+</LinearLayout>

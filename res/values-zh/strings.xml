@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tiara Nail</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="language_now">中國語</string>
+    <string name="language">语言</string>
+    <string name="push">通告</string>
+	
+	<string name="greeting">你好</string>
+	<string name="balance">余额</string>
+	<string name="charge">公积金</string>
+	<string name="tiara_news">Tiara 消息</string>
+	<string name="nail_info">美甲信息</string>
+	<string name="preview">预览</string>
+	<string name="setting">設定</string>
+	<string name="id">用户名或</string>
+	<string name="pwd">密码</string>
+	<string name="login">登录</string>
+	<string name="auto_login">保持登录状态</string>
+	<string name="find_id">我忘记密码了</string>
+	<string name="is_first">第一次来</string>
+	<string name="join_us">注册</string>
+	<string name="notice">要闻</string>
+	<string name="surgery_info">信息</string>
+	<string name="event">促销活动</string>
+	<string name="gallery">照片</string>
+	<string name="self_nail">自助美甲</string>
+	<string name="like">讚?按一下星按钮 :)</string>
+	<string name="nail_art">美甲</string>
+	<string name="go_back">以前</string>
+	<string name="account_setting">用户設定</string>
+	<string name="function_setting">設定技能</string>
+	<string name="name">名字</string>
+	<string name="phone_number">手机</string>
+	<string name="birthday">生日</string>
+	<string name="month">月</string>
+	<string name="day">日</string>
+	<string name="modify">修订</string>
+	<string name="service_list">细目</string>
+	<string name="pay">出项</string>
+	<string name="discount">折扣</string>
+</resources>

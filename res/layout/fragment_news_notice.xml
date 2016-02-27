@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:isScrollContainer="false"
+    android:orientation="vertical" >
+
+   <ExpandableListView
+       android:id="@+id/noticeExpList"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/news_empty_rect"
+       android:childDivider="@drawable/transparent"
+       android:divider="#FFF"
+       android:dividerHeight="1dp"
+       android:groupIndicator="@drawable/expand_background"
+       android:listSelector="@drawable/expand_seletor"
+       android:scrollbars="none" >
+
+    </ExpandableListView>
+
+</RelativeLayout>
